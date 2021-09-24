@@ -1,0 +1,43 @@
+/* Herança e especificidade */
+/* border e background não são herdados */
+
+* {
+    border: 1px solid orange;
+}
+
+body {
+    color: red;
+    font-size: 20px;
+    border: 1px solid blue;
+    background: gainsboro;
+}
+
+/* não usar muito important */
+/* se os seletores são iguais, vai o ultimo */
+p {
+    color: blue !important;
+}
+
+p {
+    color: green;
+}
+
+/* se os seletores são diferentes, vai o mais especifico */
+/* exemplo das bordas ali em cima */
+
+/* 3 */
+h2 {
+    color: blue;
+}
+
+/* 2 */
+h2.verde {
+    color: green;
+}
+
+/* 1 */
+h2#amarelo {
+    color: yellow;
+}
+
+

@@ -1,0 +1,40 @@
+ul {
+    /* border: 1px solid red; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    display: block;
+    color: #000;
+    background: #f7b600 url(../images/menu.png) no-repeat left bottom;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+a:hover, .selecionado a {
+    background-position: right bottom;
+    background-color: coral;
+    color: white;
+}
+
+#home #nav-vertical .home a,
+#sobre #nav-vertical .sobre a {
+    background-position: right bottom;
+    background-color: coral;
+    color: white;
+}
+
+
+/* 
+li {
+    padding: 5px 20px;
+    border: 1px solid blue;
+    background: url(../images/seta.png) no-repeat left center;
+}
+ */

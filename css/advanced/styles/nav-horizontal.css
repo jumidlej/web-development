@@ -1,0 +1,40 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* border: 1px solid red; */
+    width: 720px;
+    background: #159cb0 url(../images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+    /* display: inline; */
+    /* border: 1px solid blue; */
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    text-decoration: none;
+    background: url(../images/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+#home #nav-horizontal .home a,
+#sobre #nav-horizontal .sobre a {
+    background-position: right bottom;
+    color: #085662;
+    background-color: #44cade;
+}
